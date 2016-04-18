@@ -24,7 +24,7 @@
 
 using System.ServiceProcess;
 
-namespace StorageSpacesMonitor
+namespace StorageSpacesMonitorService
 {
     /// <summary>
     /// Represents the program.

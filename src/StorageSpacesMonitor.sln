@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageSpacesMonitor", "StorageSpacesMonitor.csproj", "{1CAF1C2D-FEB3-4BA5-ADC0-6773B2FBA91D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageSpacesMonitorService", "Service\StorageSpacesMonitorService\StorageSpacesMonitorService.csproj", "{579F2BB2-3178-48E8-B6F9-1D7106FCC412}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "StorageSpacesMonitorInstaller", "Installer\StorageSpacesMonitorInstaller\StorageSpacesMonitorInstaller.wixproj", "{96A330CF-FA5A-4F65-A85D-5B6025E0DA22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,20 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1CAF1C2D-FEB3-4BA5-ADC0-6773B2FBA91D}.Debug|x64.ActiveCfg = Debug|x64
-		{1CAF1C2D-FEB3-4BA5-ADC0-6773B2FBA91D}.Debug|x64.Build.0 = Debug|x64
-		{1CAF1C2D-FEB3-4BA5-ADC0-6773B2FBA91D}.Debug|x86.ActiveCfg = Debug|x86
-		{1CAF1C2D-FEB3-4BA5-ADC0-6773B2FBA91D}.Debug|x86.Build.0 = Debug|x86
-		{1CAF1C2D-FEB3-4BA5-ADC0-6773B2FBA91D}.Release|x64.ActiveCfg = Release|x64
-		{1CAF1C2D-FEB3-4BA5-ADC0-6773B2FBA91D}.Release|x64.Build.0 = Release|x64
-		{1CAF1C2D-FEB3-4BA5-ADC0-6773B2FBA91D}.Release|x86.ActiveCfg = Release|x86
-		{1CAF1C2D-FEB3-4BA5-ADC0-6773B2FBA91D}.Release|x86.Build.0 = Release|x86
+		{579F2BB2-3178-48E8-B6F9-1D7106FCC412}.Debug|x64.ActiveCfg = Debug|x64
+		{579F2BB2-3178-48E8-B6F9-1D7106FCC412}.Debug|x64.Build.0 = Debug|x64
+		{579F2BB2-3178-48E8-B6F9-1D7106FCC412}.Debug|x86.ActiveCfg = Debug|x86
+		{579F2BB2-3178-48E8-B6F9-1D7106FCC412}.Debug|x86.Build.0 = Debug|x86
+		{579F2BB2-3178-48E8-B6F9-1D7106FCC412}.Release|x64.ActiveCfg = Release|x64
+		{579F2BB2-3178-48E8-B6F9-1D7106FCC412}.Release|x64.Build.0 = Release|x64
+		{579F2BB2-3178-48E8-B6F9-1D7106FCC412}.Release|x86.ActiveCfg = Release|x86
+		{579F2BB2-3178-48E8-B6F9-1D7106FCC412}.Release|x86.Build.0 = Release|x86
+		{96A330CF-FA5A-4F65-A85D-5B6025E0DA22}.Debug|x64.ActiveCfg = Debug|x86
+		{96A330CF-FA5A-4F65-A85D-5B6025E0DA22}.Debug|x86.ActiveCfg = Debug|x86
+		{96A330CF-FA5A-4F65-A85D-5B6025E0DA22}.Debug|x86.Build.0 = Debug|x86
+		{96A330CF-FA5A-4F65-A85D-5B6025E0DA22}.Release|x64.ActiveCfg = Release|x86
+		{96A330CF-FA5A-4F65-A85D-5B6025E0DA22}.Release|x86.ActiveCfg = Release|x86
+		{96A330CF-FA5A-4F65-A85D-5B6025E0DA22}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,7 +28,7 @@ using System.Runtime.InteropServices;
 using System.ServiceProcess;
 using System.Timers;
 
-namespace StorageSpacesMonitor
+namespace StorageSpacesMonitorService
 {
     /// <summary>
     /// Represents the service used to monitor storage pools.
